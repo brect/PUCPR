@@ -1,2 +1,56 @@
 
 ### Tipos de dados
+
+No Dart, os principais tipos de variáveis possíveis são os seguintes:
+
+**Números**
+Existem dois tipos de números em Dart, os inteiros (int) onde eles são números sem uma parte decimal e números de ponto flutuante (double).  Números de ponto flutuante são números com uma parte decimal.
+
+```dart
+int age = 31;
+double height = 1.68;
+```
+
+**Strings**
+Uma string é uma sequência de caracteres. Em Dart, as strings são representadas por aspas duplas ou simples. Por exemplo, 'Hello, World!' ou "Hello, World!" são strings válidas.
+
+
+```dart
+String nome = "Bruno";
+String nome = 'Olá, mundo!';
+```
+
+**Booleans**
+Um booleano é um tipo de dado que pode ter apenas um de dois valores possíveis: verdadeiro ou falso. Em Dart, os booleanos são representados pelas palavras-chave 'true' e 'false'.
+
+```dart
+bool gostaDeFutebol = true;
+bool gostaDeFutebol = false;
+```
+
+**Listas**
+Uma lista é uma coleção ordenada de itens. Em Dart, as listas são semelhantes aos arrays em outras linguagens de programação. 
+
+Listas possui  itens que podem ou não se repetir e seus elementos podem ter ou não um tipo definido utilizando List<tipo>, se não colocar o tipo entre os sinais, o Dart fará inferência de tipo;
+
+Você pode declarar uma lista usando colchetes. Por exemplo, 'var lista = [1, 2, 3];' declara uma lista de inteiros.
+
+```dart
+List<int> sequenciaFibonacci = [0, 1, 1, 2, 3, 5, 8];
+
+val organizadasDoSeuTime = ["Gaviões da Fiel", "Camisa 12", "Turma do Escanteio"];
+```
+
+**Set**
+É equivalente a uma lista, porém, seus elementos não podem se repetir e são colocados entre chaves {};
+
+```dart
+Set<String> tecnologiasMobile = {"Flutter", "KMP", "Kotlin", "Swift"};
+```
+
+**Maps**
+Um mapa é uma coleção de pares de chave-valor. Em Dart, você pode declarar um mapa usando chaves. Por exemplo, 'var mapa = {'nome': 'John', 'idade': 30};' declara um mapa com chaves de string e valores de qualquer tipo.
+
+```dart
+Map<String, int> experienciaTecnologias = {"Flutter": 0, "KMP": 0, "Kotlin": 6, "Swift": 0};
+```
