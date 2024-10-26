@@ -145,20 +145,3 @@ void main() {
 
 Saída
 >Null
-
-
-### Tipos de dados
-
-
-- Estruturas de decisão
-- Estruturas de repetições
-  
-
-
-Trabalhando com Arrays e Listas
-
-Trabalhando com Opcionais / Null Safety
-
-Trabalhando com Funções
-
-Trabalhando com POO - Classes
