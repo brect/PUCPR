@@ -2,7 +2,7 @@
 
 ## Trabalhando com Variáveis e Tipos de Dados
 
-### Variaveis
+### 01 - Variaveis
 
 #### O que é uma variável?
 
